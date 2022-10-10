@@ -23,7 +23,7 @@
         <div class="row">
             <div class="m-auto">
                 <ol class="list-group">
-                    @forelse ($mahasiswas as $mahasiswa) 
+                    @forelse ($student as $mahasiswa) 
                     <li class="list-group-item">
                     {{$mahasiswa->nama}} ({{$mahasiswa->nim}}),
                     Tanggal lahir :{{$mahasiswa->tanggal_lahir}},
